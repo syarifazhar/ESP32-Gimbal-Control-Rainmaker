@@ -11,4 +11,7 @@ The main folder contains the necessary code to make the camera control possible.
 
 Clone the ESP Rainmaker repo into your PC. Go to {YOUR DRIVE}\esp-rainmaker\examples/gpio and replace the main folder with this repository. 
 
+### Parts?
+These are the SolidWorks parts that you can save as STEP/STL files to 3D print if you want to recreate the hardware of this project. 
+
 
