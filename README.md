@@ -1,18 +1,14 @@
-# GPIO Example
+# Camera Control 
 
 ## Build and Flash firmware
 
 Follow the ESP RainMaker Documentation [Get Started](https://rainmaker.espressif.com/docs/get-started.html) section to build and flash this firmware. Just note the path of this example.
 
-## What to expect in this example?
+## What to expect?
+The main folder contains the necessary code to make the camera control possible.
 
-- This example just provides 3 boolean parameters, linked to 3 GPIOS.
-- Toggling the buttons on the phone app should toggle the GPIOs on your board (and the LEDs, if any, connected to the GPIOs), and also print messages like these on the ESP32-S2 monitor:
+### How to make it work?
 
-```
-I (16073) app_main: Received value = true for GPIO-Device - Red
-```
+Clone the ESP Rainmaker repo into your PC. Go to {YOUR DRIVE}\esp-rainmaker\examples/gpio and replace the main folder with this repository. 
 
-### Reset to Factory
 
-Press and hold the BOOT button for more than 3 seconds to reset the board to factory defaults. You will have to provision the board again to use it.
